@@ -1,0 +1,27 @@
+query,output,flag,username,timestamp
+"   query = gql('''
+           query Students {
+                students {
+                     ID
+                     major
+                     name
+                     year
+                    }
+           }
+        ''')",,,,2024-04-25 12:07:17.800874
+Show me the students,Failed to connect to chatbot,,,2024-04-25 17:59:34.711750
+,,,,2024-04-25 18:01:44.878959
+Show me the teacher,"Here are the list of teachers:
+- 4, Information Technology, Hiran Perera
+- 5, Information Technology, Chathurangi Bandara
+- 6, Information Technology , Ravishma Brahmana
+- 1, Information Technology, Dilshan
+- 2, Information Technology, Chamini
+- 2, Information Technology, Chamini
+- 20, Information Technology, Chamini
+- 31, Information Technology, Chamini
+- 32, Information Technology, Chamini",,,2024-04-25 18:01:48.614282
+Show me the ,"Here are the list of courses:
+- BIT101, 3, Information Technology, Advance Database
+- BIT202, 3, Information Technology, Web Development
+- BIT201, 3, Information Technology, OOP",,,2024-04-25 19:07:55.061997
